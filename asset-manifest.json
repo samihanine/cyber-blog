@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cyber-blog/static/css/main.9293089b.css",
-    "main.js": "/cyber-blog/static/js/main.7d43bed6.js",
+    "main.js": "/cyber-blog/static/js/main.53c557a8.js",
     "static/media/learn.png": "/cyber-blog/static/media/learn.7c46d4014e231299be6c.png",
     "static/media/stress.png": "/cyber-blog/static/media/stress.bf957a081d542d43cfba.png",
     "static/media/proteger.png": "/cyber-blog/static/media/proteger.972d1361c23a762ab48e.png",
@@ -41,10 +41,10 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/cyber-blog/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/cyber-blog/index.html",
     "main.9293089b.css.map": "/cyber-blog/static/css/main.9293089b.css.map",
-    "main.7d43bed6.js.map": "/cyber-blog/static/js/main.7d43bed6.js.map"
+    "main.53c557a8.js.map": "/cyber-blog/static/js/main.53c557a8.js.map"
   },
   "entrypoints": [
     "static/css/main.9293089b.css",
-    "static/js/main.7d43bed6.js"
+    "static/js/main.53c557a8.js"
   ]
 }
