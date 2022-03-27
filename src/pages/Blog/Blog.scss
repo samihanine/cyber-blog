@@ -1,0 +1,13 @@
+@import 'variable.scss';
+
+.filter {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+
+    input {
+        width: 500px;
+        max-width: 100%;
+    }
+}

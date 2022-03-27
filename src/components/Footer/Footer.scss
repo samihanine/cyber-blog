@@ -1,0 +1,41 @@
+@import 'variable.scss';
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    p {
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+    }
+
+    .mention {
+        
+        border: solid 1px white;
+
+        &:hover {
+            background-color: white;
+            a {
+                color: black;
+            }
+        }
+
+        a {
+            padding: 15px;
+            display: block;
+        }
+        
+
+    }
+}

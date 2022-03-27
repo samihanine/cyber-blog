@@ -1,0 +1,61 @@
+@import 'variable.scss';
+
+.header {
+    height: $header-height;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.102) 0px 7px 29px 0px;
+    z-index: 1000;
+
+    p {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    & a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: $main;
+        gap: 20px;
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+
+        li {
+            list-style: none;
+            color: black;
+
+
+            a {
+                text-decoration: none;
+                color: black;
+                height: 70px;
+                padding: 0 10px;
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+
+                &:hover {
+                    background-color: $main;
+                    color: white;
+                }
+            }
+
+            .active {
+                //text-decoration: underline !important;
+                color: $main;
+                font-weight: 600;
+            }
+
+        }
+    }
+
+}

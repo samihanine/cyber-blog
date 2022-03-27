@@ -1,0 +1,151 @@
+@import 'variable.scss';
+
+.banner {
+
+    background-image: url("https://cyber.gc.ca/sites/default/files/ITSAP00037-cyber-crime-victim-banner.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(87, 87, 87, 0.5));
+    background-blend-mode: overlay;
+    width: 100vw;
+    height: calc(70vh - 110px);
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    h1 {
+        margin: auto;
+        color: white;
+        font-size: clamp(50px, 8vh, 70px);
+        text-align: center;
+        
+    }
+}
+
+.grey {
+    background-color: #F3F3F3;
+}
+
+.white {
+    background-color: white;
+}
+
+article {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+
+    
+    section {
+        h2 {
+            font-size: 40px;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+        width: 1000px;
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .btn {
+            padding: 19px 56px 16px !important;
+            font-size: 20px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            li {
+                a {
+                    font-size: 22px;
+                    color: black;
+                    text-decoration: none;
+                }
+                
+                list-style: none;
+
+                &:before {
+                    content: '✓';
+                    color: $main;
+                    font-size: 30px;
+                    padding-right: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .flex {
+
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .question {
+
+        flex-direction: column;
+
+        p {
+            text-align: center;
+        }
+
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    article {
+        padding: 25px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        gap: 20px;
+        
+        .card {
+            width: 100%;
+            height: fit-content;
+        }
+    }
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 150px;
+    height: 250px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+
+
+    p {
+        text-align: center;
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+    }
+}
