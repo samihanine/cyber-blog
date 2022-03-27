@@ -26,6 +26,15 @@
         background-color: white;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
+        a {
+            color: $main;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        & > div {
+            display: flex;
+            flex-direction: column;
+        }
         h1 {
             text-align: center;
             font-size: 25px;
@@ -35,14 +44,61 @@
             font-size: 20px;
         }
 
+        h3 {
+            font-size: 17px;
+            margin: 0;
+            margin-top: 10px;
+        }
+
         p, b, strong {
             text-align: justify;
+            font-size: 17px;
         }
 
         img {
-            margin: 20px;
-            margin-bottom: 30px;
+            margin: auto;
+            max-height: 500px;
         }
+
+        em {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    }
+
+    .infos {
+        border-top: solid 3px $main;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+
+
+    span {
+        display: flex;
+        align-items: center;
+        b {
+            margin-left: 10px;
+        }
+    }
+
+    .author {
+        img {
+            width: 150px;
+        }
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        gap: 25px;
+        border: solid 1px grey;
     }
 
 }

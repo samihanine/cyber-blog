@@ -134,6 +134,7 @@ article {
     width: 150px;
     height: 250px;
     box-sizing: border-box;
+    cursor: pointer;
 
     display: flex;
     flex-direction: column;
@@ -148,4 +149,16 @@ article {
         text-decoration: none;
         font-size: 22px;
     }
+
+    &:hover p {
+        font-weight: 500;
+        color: $main;
+    }
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
 }

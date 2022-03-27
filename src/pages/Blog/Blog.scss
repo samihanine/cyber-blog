@@ -1,13 +1,39 @@
 @import 'variable.scss';
 
+.blog {
+
+    padding: 110px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .articles {
+        padding: 10px;
+    }
+
+}
 .filter {
     background-color: white;
-    margin: 30px;
     padding: 20px;
     border-radius: 20px;
-
+    box-shadow: rgba(149, 157, 165, 0.048) 0px 8px 24px;
+    border: solid 1px #ddd;
+    
     input {
-        width: 500px;
+        width: 400px;
         max-width: 100%;
+        height: 20px;
+    }
+
+    .form {
+        display: flex;
+        padding: 0 30px;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .group {
+        max-width: 600px;
     }
 }

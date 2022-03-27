@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  overflow-x: hidden;
 }
 
 code {
@@ -17,6 +17,7 @@ code {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .page {
@@ -29,3 +30,15 @@ code {
 .app {
   min-height: 100vh;
 }
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+a { color: inherit; } 
