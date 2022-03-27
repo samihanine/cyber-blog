@@ -28,7 +28,7 @@ function Blog({ search, setSearch, tag, setTag }) {
       if (tag != -1 && tag != item.tag) return null;
       if (!item.title.toLocaleLowerCase().includes(search.toLocaleLowerCase()) && search != "") return null;
 
-      return <NavLink to={"/article/" + index + "/" + convertToSlug(item.title) + "--securite"}>
+      return <NavLink to={"/article/" + index + "/" + convertToSlug(item.title)}>
           <Card article={item} />
       </NavLink>
     })

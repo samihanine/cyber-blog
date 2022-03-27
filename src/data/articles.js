@@ -15,24 +15,25 @@ const articles = [
             <div>
                 <h1>Guerre en Ukraine, quand les cyber-attaques deviennent des armes de guerre </h1>
                 <img src={guerre} alt="soldat hacker" />
-                <em>Le secteur de la sécurité informatique serait-il plus menacé par le stress professionnel ?</em>
+                <em>Appréhender les enjeux du début de la cyberguerre opposant la Russie à l'Ukraine.</em>
                 <b>Alors que le conflit militaire s'intensifie entre l'Ukraine et la Russie, les craintes de cyberattaques entre les deux pays se font également sentir. La sécurité des citoyens ukrainiens ne relève plus seulement du physique, mais également du numérique.  Une guerre numérique dans une guerre géopolitique, c’est ce que les experts aiment appeler une cyberguerre. Pour d’appréhender un tel conflit, il faut d’abord chercher à comprendre ce qu’est concrètement une cyberguerre et qui en sont les acteurs majeurs.</b>
                 <h2>La cyberguerre, c’est quoi ?</h2>
                 <p>
-                La cyberguerre correspond à « l'utilisation d'attaques numériques contre un État ennemi, causant des dommages comparables à ceux d'une guerre réelle et perturbant les systèmes informatiques vitaux. ». Ce nouveau format de guerre associe la force militaire conventionnelle à des opérations non conventionnelles, souvent numériques, comme la propagande politique en ligne et les cyberattaques contre les infrastructures. 
+                La cyberguerre correspond à l'utilisation d'attaques numériques contre un État ennemi dans l'objectif de mettre en péril les systèmes informatique adverses. Ce nouveau format de guerre associe la force militaire conventionnelle à des opérations non-conventionnelles, souvent numériques, comme la propagande politique en ligne et les cyberattaques contre les infrastructures informatiques. 
                 </p>
                 <p>
                 "Je ne pense pas qu'il y ait le moindre doute sur le fait que s'il y a une invasion ou un autre type d'incursion en Ukraine, cela commencera par une cyberguerre", a déclaré Angus King, le sénateur indépendant du Maine, au Times en décembre. En d’autres termes, les cyberattaques ne sont pas seulement des armes supplémentaires dans un conflit, il s’agit en réalité de la menace la plus directe et imminente dans les guerres 2.0.
                 </p>
-                <h2>L’invasion Russe virtuel</h2>
+                <h2>L’invasion Russe virtuelle</h2>
                 <p>
-                La Russie a en effet déjà effectué plus de 150 cyberattaques visant l’Ukraine depuis le début de son invasion. Ces attaques ont pour objectifs de détruire un maximum de données se trouvant sur le réseau ukrainien, rendant inutilisable en bon nombre d’appareils connectés. 
+                La Russie a en effet déjà effectué plus de 150 cyberattaques visant l’Ukraine depuis le début de son invasion. Ces attaques ont pour objectif de détruire un maximum de données se trouvant sur le réseau ukrainien, rendant inutilisable en bon nombre d’appareils connectés. 
                 </p>
                 <p>
-                Mais ce n’est que le début, les experts estiment que des attaques bien plus violentes pourrait faire leur apparition au cours des prochains mois. On pense notamment aux « ransomwares » qui visent à geler entièrement des données en échange d’une somme d’argent. Ou encore au « total black-out », un type d’attaque qui s’en prend directement aux réseaux électriques pour plonger une ville dans le noir.
+                Mais ce n’est que le début, les experts estiment que des attaques bien plus violentes pourraient faire leur apparition au cours des prochains mois. On pense notamment aux « ransomwares » qui visent à geler entièrement des données en échange d’une somme d’argent. Ou encore au « total black-out », un type d’attaque qui s’en prend directement aux réseaux électriques pour plonger une ville dans le noir.
                 </p>
                 <h2>Un soutien inattendu pour l’Ukraine</h2>
-                <p>L’Ukraine n’est pas uniquement en position de victime dans cette cyberguerre, bien au contraire. En effet, le célèbre groupe de hacker « les Anonymous » lui apporte sous soutien dans ce combat aux enjeux cruciaux. Ces derniers ont officiellement déclaré la cyberguerre à la Russie via twitter. Ils auraient déjà mis hors ligne le site Internet de la chaîne de télévision Russia Today, accusée auparavant de censure et de désinformation par les autorités internationales.</p>
+                <p>L’Ukraine n’est pas uniquement en position de victime dans cette cyberguerre, bien au contraire. En effet, le célèbre groupe de hacker « les Anonymous » lui apporte sous soutien dans ce combat aux enjeux cruciaux. Ces derniers ont officiellement déclaré la cyberguerre à la Russie via <a href="https://twitter.com/YourAnonNews/status/1498683337984155649" target="_blank" rel="noopener noreferrer">un tweet</a>. Ils auraient déjà mis hors ligne le site Internet de la chaîne de télévision Russia Today, accusée auparavant de censure et de désinformation par les autorités internationales.</p>
+                <p>Les guerres d'aujourd'hui ne sont plus les mêmes que celles d'il y a cent ans, et ces évolutions soulèvent de nombreuses interrogations. Les cyberguerres finiront-elles par dominer les guerres physiques ? Quel place les civils auront-ils dans ces guerres 2.0 ?</p>
             </div>
         )
     },
@@ -46,7 +47,7 @@ const articles = [
             <div>
                 <h1>Les hackers éthiques, qui sont-ils ?</h1>
                 <img src={white} alt="white hat" />
-                <em>Qui se cache derrière ce terme.</em>
+                <em>Qui se cache derrière ce terme ?</em>
                 <b>Avec l’explosion de la  production de données, assurer leur sécurité devient alors une priorité pour les entreprises entrainant ainsi l’émergence du terme d’hacker éthique. 
                 Nous allons vous expliquer en quoi consiste ce métier, les formations disponibles et s’il s’agit d’un métier d’avenir en France. </b>
                 <h2>Qu’est-ce que c’est ? Ses missions ? Ses objectifs ?</h2>
@@ -84,11 +85,11 @@ const articles = [
                 <img alt="stress" src={stress} />
                 <em>Le secteur de la sécurité informatique serait-il plus menacé par le stress professionnel ?</em>
                 <b> 
-                De plus en plus d’experts de la cybersécurité déclarent travailler plus de quarante heures par semaine. Les nouveaux enjeux de la sécurité informatique mettent en lumière des professions éprouvantes, parfois dangereuses. Les conséquences sur la santé mentale sont quelques fois sous-estimées. Comprendre, expliquer et anticiper ces phénomènes peut vous aider à analyser ces situations et à y faire face. Les experts ont décortiqué ce sujet.
+                De plus en plus d’experts de la cybersécurité déclarent travailler plus de quarante heures par semaine. Les nouveaux enjeux de la sécurité informatique mettent en lumière des professions éprouvantes, parfois dangereuses. Les conséquences sur la santé mentale sont quelques fois sous-estimées. Comprendre, expliquer et anticiper ces phénomènes peuvent vous aider à analyser ces situations et à y faire face. Les experts ont décortiqué ce sujet.
                 </b>
                 <h2>De lourdes conséquences sur la santé</h2>
                 <p>
-                Selon un <a target="_blank" rel="noopener noreferrer" href="https://media.nominetcyber.com/wp-content/uploads/2020/02/Nominet_The-CISO-Stress-Report_2020_V10.pdf">rapport</a> publié en 2020 par le groupe anglophone Nominet, 91% des salariés concernés se déclarent stressés, et la moitié d’entre eux très stressés. Le stress bouleverse évidemment leurs capacités de travail mais il peut également être accompagné d’autres symptômes. Les médecins citent notamment la perte d’appétit, les troubles du sommeil, de l’appétit et de la digestion, les maux de tête, les douleurs articulaires… Les entreprises ont également leur part de responsabilité. Le manque de moyens pour faire face à une menace grandissante ou encore le sentiment lié à l’urgence de chaque mission peuvent aussi favoriser l’apparition de ces symptômes, comme le confirme Christine Pekar, spécialiste des risques psycho-sociaux.
+                Selon un <a target="_blank" rel="noopener noreferrer" href="https://media.nominetcyber.com/wp-content/uploads/2020/02/Nominet_The-CISO-Stress-Report_2020_V10.pdf">rapport</a> publié en 2020 par le groupe anglophone Nominet, 91 % des salariés concernés se déclarent stressés, et la moitié d’entre eux très stressés. Le stress bouleverse évidemment leurs capacités de travail mais il peut également être accompagné d’autres symptômes. Les médecins citent notamment la perte d’appétit, les troubles du sommeil, de l’appétit et de la digestion, les maux de tête, les douleurs articulaires… Les entreprises ont également leur part de responsabilité. Le manque de moyens pour faire face à une menace grandissante ou encore le sentiment lié à l’urgence de chaque mission peuvent aussi favoriser l’apparition de ces symptômes, comme le confirme Christine Pekar, spécialiste des risques psycho-sociaux.
                 </p>
                 <h2>D’où pourrait venir ce phénomène ? </h2>
                 <p>
@@ -103,7 +104,7 @@ const articles = [
                 <h3>#3 - Communiquer</h3>
                 <p>La communication est toujours la clé de la réussite. Faites le point avec votre responsable hiérarchique, définissez des plannings réalistes et prioriser les tâches. </p>
                 <h3>#4 - La règle des 42%</h3>
-                <p>Selon l’ouvrage Burn Out: The Secret to Solving the Stress Cycle (Burn-out : le secret de la résolution du stress), 42% serait le pourcentage de repos dont vous auriez besoin pour éviter le burn-out. Vous pourrez par exemple en profiter pour faire du sport, regarder une série ou encore prendre soin de vous.</p>
+                <p>Selon l’ouvrage Burn Out: The Secret to Solving the Stress Cycle (Burn-out : le secret de la résolution du stress), 42 % serait le pourcentage de repos dont vous auriez besoin pour éviter le burn-out. Vous pourrez par exemple en profiter pour faire du sport, regarder une série ou encore prendre soin de vous.</p>
                 <p>A l’ère du Big Data (ère de la donnée massive), les enjeux de la sécurité numérique sont trop nombreux. Il devient alors vital pour la santé des salariés de réagir rapidement. Les entreprises doivent en prendre conscience et certaines d'entre elles se disent prêtes à changer leur mode de fonctionnement. </p>
                 <p>Est-ce vraiment le cas, et comment peuvent-elles y parvenir ?</p>
             </div>
@@ -113,17 +114,17 @@ const articles = [
         title: "Les meilleures formations pour apprendre le hacking",
         tag: 4,
         date: new Date(),
-        author: "Booba Jarrasso-Escoffier",
+        author: "Booba Jarrasson-Escoffier",
         img: learn,
         Text: () => (
             <div>
                 <h1>Les meilleures formations pour apprendre le hacking</h1>
                 <img alt="formation" src={learn} />
                 <em>Le secteur de la sécurité informatique serait-il plus menacé par le stress professionnel ?</em>
-                <b>Nous avons tous déjà vu dans nos films et séries préférées un protagoniste réussissant à pirater des systèmes de sécurité redoutables. Sur le coup, cela à du vous paraître insurmontable. En réalité, vous êtes-vous déjà questionné sur vos capacités. N’y aurait-t-il pas une façon intuitive d’apprendre le hacking ? Par ou devriez-vous commencer. Quels sites visiter ou bien quels livres acheter. Nous vous donnons les meilleures pistes pour débuter. </b>
+                <b>Nous avons tous déjà vu dans nos films et séries préférées un protagoniste réussissant à pirater des systèmes de sécurité redoutables. Sur le coup, cela a dû vous paraître insurmontable. En réalité, vous êtes-vous déjà questionné sur vos capacités ? N’y aurait-il pas une façon intuitive d’apprendre le hacking ? Par où devriez-vous commencer. Quels sites visiter ou bien quels livres acheter ? Nous vous donnons les meilleures pistes pour débuter. </b>
                 <h2>Prérequis avant de débuter</h2>
                 <p>
-                Ce court paragraphe introductif n’a pas pour but de vous décourager mais surtout d’éviter de vous faire perdre du temps. En effet il est inutile de vous lancer dans cette quête si vous ne remplissez pas tous les critères :
+                Ce court paragraphe introductif n’a pas pour but de vous décourager mais surtout d’éviter de vous faire perdre du temps. En effet, il est inutile de vous lancer dans cette quête si vous ne remplissez pas tous les critères :
                 </p>
                 <ul>
                     <li>Bases solides dans un langage de programmation quelconque. </li>
@@ -131,21 +132,21 @@ const articles = [
                     <li>Enfin disposer de matériel adapté, c’est-à-dire ne pas avoir un ordinateur trop vieux car vous risquez d’être limité.</li>
                 </ul>
                 <p>
-                Maintenant que vous avez validé tous les points. Nous pouvons revenir au vif du sujet. Vous allez recevoir les meilleures pister pour apprendre à déjouer vos premiers systèmes de sécurité. 
+                Maintenant que vous avez validé tous les points. Nous pouvons revenir au vif du sujet. Vous allez recevoir les meilleures pistes pour apprendre à déjouer vos premiers systèmes de sécurité. 
                 </p>
                 <h2>Les meilleurs sites web pédagogiques </h2>
                 <p>
                 Cybary est une formation gratuite lancée en 2015. Cette formation vous propose une grande panoplie d’outils éducatifs. Cela va des leçons gratuites, des articles sur les derniers développements du domaine etc. De plus, ce site offre une plateforme d’échange entre les entreprises du secteur, un vrai boost pour votre carrière !
                 </p>
                 <p>
-                Deuxièmement nous avons le site Hacking Tutorial. Bien que l’ergonomie de ce site aurait besoin d’un rafraîchissement, il se démarque notamment grâce à ses nombreux exercices. Il vous apprendra l’utilisation de divers outils permettant de porter atteinte à la sécurité de nombreux sites.
+                Deuxièmement, nous avons le site Hacking Tutorial. Bien que l’ergonomie de ce site aurait besoin d’un rafraîchissement, il se démarque notamment grâce à ses nombreux exercices. Il vous apprendra l’utilisation de divers outils permettant de porter atteinte à la sécurité de nombreux sites.
                 </p>
                 <p>
                 Hackingloops est une encyclopédie du piratage informatique. Ce site regroupe environ 830 articles portant sur les failles de sécurité, les tests d’intrusion ce qui fera de vous un expert en percée éthique.
                 </p>
                 <h2>Apprendre à déjouer la sécurité sur papier </h2>
                 <p>Si vous préférez vous former à l’aide d’un support papier, voici 2 livres qui devraient répondre à vos attentes </p>
-                <p>Les bases du hacking de Patrick Engebretson est un livre destiné aux débutants. Il consiste en une introduction aux méthodes de hacking notamment aux tests d’intrusion. Il vous apprendra à maitriser toutes les prérequis et vous donnera les meilleures stratégies, pour que vous puissiez vous immiscer dans un système informatique.</p>
+                <p>Les bases du hacking de Patrick Engebretson est un livre destiné aux débutants. Il consiste en une introduction aux méthodes de hacking notamment aux tests d’intrusion. Il vous apprendra à maîtriser tous les prérequis et vous donnera les meilleures stratégies, pour que vous puissiez vous immiscer dans un système informatique.</p>
                 <p>Les techniques de hacking de Jon Erickson est cette fois plus complet et s’adresse à un public plus expérimenté. Si vous souhaitez comprendre dans le détail comment se créent les failles de sécurité et comment les exploiter, alors ce livre est fait pour vous.</p>
             </div>
         )
@@ -162,7 +163,7 @@ const articles = [
                 <img alt="formation" src={proteger} />
                 <em>Les informations confidentielles qu'il faut protéger !</em>
                 <b>
-                    Dans le monde entier, la sécurité des internautes est de plus en plus mise à rude épreuve à cause des hackeurs. Actuellement, les données ont une place d’une extrême importance. C’est pourquoi certaines personnes essayent de voler des données pour les revendre au prix fort ! Découvrez avec nous les meilleurs pratiques en étant sur internet
+                    Dans le monde entier, la sécurité des internautes est de plus en plus mise à rude épreuve à cause des hackers. Actuellement, les données ont une place d’une extrême importance. C’est pourquoi certaines personnes essayent de voler des données pour les revendre au prix fort ! Découvrez avec nous les meilleures pratiques en étant sur Internet
                 </b>
                 <h2>Les mots de passes</h2>
                 <p>
@@ -177,23 +178,21 @@ const articles = [
                     <li>Avoir des mots de passe différents pour chaque site web.</li>
                 </ul>
                 <p>
-                La tâche n’est pas simple et peu de personne y arrive… Il existe plusieurs solutions pour facilement y parvenir et protéger ses comptes. La méthode ancestrale, noter tous ses mots de passe dans un carnet, mais attention à l’oubli. L’autre solution est un gestionnaire de mot de passe. Il suffit de se souvenir d’un seul mot de passe et le gestionnaire s’occupe du reste. Nous vous conseillons Dashlane, pour plus d'informations rendez-vous <a target="_blank" rel="noopener noreferrer">ici</a>.
+                La tâche n’est pas simple et peu de personne y arrivent… Il existe plusieurs solutions pour facilement y parvenir et protéger ses comptes. La méthode ancestrale, noter tous ses mots de passe dans un carnet, mais attention à l’oubli. L’autre solution est un gestionnaire de mots de passe. Il suffit de se souvenir d’un seul mot de passe et le gestionnaire s’occupe du reste. Nous vous conseillons Dashlane, pour plus d'informations rendez-vous <a target="_blank" rel="noopener noreferrer">ici</a>.
                 </p>
-                <h2>Les meilleurs sites web pédagogiques </h2>
-                <p>
-                Cybary est une formation gratuite lancée en 2015. Cette formation vous propose une grande panoplie d’outils éducatifs. Cela va des leçons gratuites, des articles sur les derniers développements du domaine etc. De plus, ce site offre une plateforme d’échange entre les entreprises du secteur, un vrai boost pour votre carrière !
-                </p>
-                <p>
-                Deuxièmement nous avons le site Hacking Tutorial. Bien que l’ergonomie de ce site aurait besoin d’un rafraîchissement, il se démarque notamment grâce à ses nombreux exercices. Il vous apprendra l’utilisation de divers outils permettant de porter atteinte à la sécurité de nombreux sites.
-                </p>
-                <p>
-                Hackingloops est une encyclopédie du piratage informatique. Ce site regroupe environ 830 articles portant sur les failles de sécurité, les tests d’intrusion ce qui fera de vous un expert en percée éthique.
-                </p>
-                <h2>Apprendre à déjouer la sécurité sur papier </h2>
-                <p>Si vous préférez vous former à l’aide d’un support papier, voici 2 livres qui devraient répondre à vos attentes </p>
-                <p>Les bases du hacking de Patrick Engebretson est un livre destiné aux débutants. Il consiste en une introduction aux méthodes de hacking notamment aux tests d’intrusion. Il vous apprendra à maitriser toutes les prérequis et vous donnera les meilleures stratégies, pour que vous puissiez vous immiscer dans un système informatique.</p>
-                <p>Les techniques de hacking de Jon Erickson est cette fois plus complet et s’adresse à un public plus expérimenté. Si vous souhaitez comprendre dans le détail comment se créent les failles de sécurité et comment les exploiter, alors ce livre est fait pour vous.</p>
-            </div>
+                <h2>Les données personnelles</h2>
+                <ul>
+                    <li>Mettre ses réseaux sociaux en privé.</li>
+                    <li>Faire attention à ne pas divulguer des informations comme son adresse, coordonnées bancaires, mot de passe, etc…</li>
+                    <li> Éviter de se connecter à des réseaux wifi publics sans VPN.</li>
+                    <li>Se déconnecter de ses comptes si vous n’êtes pas sur votre appareil.</li>
+                    <li>Désactiver le GPS de son téléphone.</li>
+                    <li>Aller sur des sites dont la connexion est chiffrée. (Commençant par https)</li>
+                    <li>Effacer ses données de navigation. (Cookies, historique, etc…)</li>
+                </ul>
+                <p>Les différents conseils cités ci-dessus permettent d’éviter de se faire pirater, prévenir de l’usurpation d’identité, ou encore que les GAFAMs n'aient pas en leur possession de données vous concernant !</p>
+                <p>N’oubliez pas : « Si c'est gratuit, vous êtes le produit » ! Vos données personnelles ont de la valeur, et beaucoup payent cher pour les obtenir. Par ailleurs, grâce au RGPD, vous bénéficiez du droit à l’oubli. Vous pouvez l’user auprès de tous les collecteurs d’informations, où qu’ils soient dans le monde. </p>
+         </div>
         )
     }
 ]

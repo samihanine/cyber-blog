@@ -56,7 +56,7 @@ function Home({ setTag }) {
             <section>
                 <h2>Les derniers articles</h2>
                 <div className='articles'>
-                    {articles.map((item, index) => <NavLink to={"/article/" + index + "/" + convertToSlug(item.title) + "--securite"}>
+                    {articles.map((item, index) => <NavLink to={"/article/" + index + "/" + convertToSlug(item.title)}>
                         <Card article={item} />
                     </NavLink>)}
                 </div>

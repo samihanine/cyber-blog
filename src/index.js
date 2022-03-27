@@ -14,7 +14,7 @@ const App = () => {
   const [tag, setTag] = useState(-1);
 
   return <div className='app'>
-      <BrowserRouter basename="/cyber-blog">
+      <BrowserRouter>
         
         <Header setTag={setTag} search={search} setSearch={setSearch} />
           <Routes>
