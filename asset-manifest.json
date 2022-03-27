@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/cyber-blog/static/css/main.d5a251a9.css",
-    "main.js": "/cyber-blog/static/js/main.bed1a793.js",
+    "main.css": "/cyber-blog/static/css/main.9293089b.css",
+    "main.js": "/cyber-blog/static/js/main.7d43bed6.js",
+    "static/media/learn.png": "/cyber-blog/static/media/learn.7c46d4014e231299be6c.png",
+    "static/media/stress.png": "/cyber-blog/static/media/stress.bf957a081d542d43cfba.png",
+    "static/media/proteger.png": "/cyber-blog/static/media/proteger.972d1361c23a762ab48e.png",
     "static/media/guerre.jpg": "/cyber-blog/static/media/guerre.7b48eac16ce6a10f29a4.jpg",
     "static/media/roboto-all-500-normal.woff": "/cyber-blog/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/cyber-blog/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/cyber-blog/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
     "static/media/roboto-all-300-normal.woff": "/cyber-blog/static/media/roboto-all-300-normal.8fc5f5f22c9951113696.woff",
+    "static/media/white.jpg": "/cyber-blog/static/media/white.81fbf133094ca77ab9b4.jpg",
     "static/media/roboto-latin-500-normal.woff2": "/cyber-blog/static/media/roboto-latin-500-normal.869888415d0b1a99ae5c.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/cyber-blog/static/media/roboto-latin-700-normal.0682ca7f74351d42bf73.woff2",
     "static/media/roboto-latin-300-normal.woff2": "/cyber-blog/static/media/roboto-latin-300-normal.0109a2ace896a506a0aa.woff2",
@@ -36,11 +40,11 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/cyber-blog/static/media/roboto-greek-ext-300-normal.04e05839d6a35e046c13.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/cyber-blog/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/cyber-blog/index.html",
-    "main.d5a251a9.css.map": "/cyber-blog/static/css/main.d5a251a9.css.map",
-    "main.bed1a793.js.map": "/cyber-blog/static/js/main.bed1a793.js.map"
+    "main.9293089b.css.map": "/cyber-blog/static/css/main.9293089b.css.map",
+    "main.7d43bed6.js.map": "/cyber-blog/static/js/main.7d43bed6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5a251a9.css",
-    "static/js/main.bed1a793.js"
+    "static/css/main.9293089b.css",
+    "static/js/main.7d43bed6.js"
   ]
 }
